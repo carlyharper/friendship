@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carly's Friendship Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/carly.jpg">
+                    Carly's Friend Form (CFF)
+                </a>
+                <ul class="navbar-nav ml-auto links">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Carly</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Why you should apply</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Application Status</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="first name">
+                    </div>
+                    <div class="col-6">  
+                        <input type="text" class="form-control" placeholder="last name">
+                    </div>
+                </div>
+                <div class="form-group">    
+                    <label>Email address</label>
+                    <input type="email" class="form-control" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label>Who is your favorite Bravolebrity?</label>
+                    <select class="form-control">
+                        <option>Ramona</option>
+                        <option>Stassi</option>
+                        <option>Vicki</option>
+                        <option>Porscha</option>
+                        <option>LeeAnne</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>In 50 words or less, describe how perfect this dog is:</label>
+                    <br>
+                    <img src="img/beazley.jpg">
+                    <textarea class="form-control pic" rows="3"></textarea>
+                </div>
+                <p>How do you feel about making eye contact with others?</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Never
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Always
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                    Only with alcohol
+                    </label>
+                </div>
+                <br/>
+                <div class="tvshow">
+                    <p>Check all TV shows that will never not be funny:</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Parks and Rec
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Seinfeld
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label" for="defaultCheck1">
+                            The Nanny
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label" for="defaultCheck1">
+                            The Office
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label" for="defaultCheck1">
+                            none of the above
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
