@@ -10,6 +10,9 @@ body {
 .row {
     padding-top: 15px;
 }
+.application h2 {
+    font-color: blue;
+}
 container button {
     padding: 30px;
 }
